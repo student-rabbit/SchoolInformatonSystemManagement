@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--
+        &lt;!&ndash; <Button
+             android:layout_width="200dp"
+             android:layout_height="200dp"
+             android:id="@+id/base"
+             android:text="기준위젯"/>&ndash;&gt;
+
+        &lt;!&ndash;테마없이 출력하는 아래의 버튼
+        android:layout_centerInParent="true" 정가운데에 위치시킨다. &ndash;&gt;
+
+        <android.widget.Button
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/base"
+            android:layout_centerInParent="true"
+            android:text="기준위젯"/>
+
+        &lt;!&ndash;왼쪽 위에 위치&ndash;&gt;
+        <android.widget.Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_toLeftOf="@+id/base"
+            android:layout_above="@+id/base"
+            android:id="@+id/onebase"
+            android:text="1"/>
+
+        <android.widget.Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/base"
+            android:layout_above="@+id/base"
+            android:text="2"/>
+
+        <android.widget.Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_toLeftOf="@+id/base"
+            android:layout_alignBaseline="@+id/base"
+            android:text="3"/>
+
+        <android.widget.Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/base"
+            android:layout_alignRight="@+id/base"
+            android:id="@+id/fourbase"
+            android:text="4"/>
+
+        <android.widget.Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/base"
+            android:layout_toRightOf="@+id/base"
+            android:text="5"/>
+    -->
+</RelativeLayout>
