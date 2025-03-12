@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);     // 메모리 올리기
-        setTitle("좋아하는 영화-유소영");
+        setTitle("좋아하는 영화");
         title=findViewById(R.id.title);
         act=findViewById(R.id.act);
         img=findViewById(R.id.img);
