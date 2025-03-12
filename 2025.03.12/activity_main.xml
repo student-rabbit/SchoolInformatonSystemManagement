@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black"
+
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="13sp"
+        android:textAlignment="center"
+        android:text="2024 IU HEREH WORLD TOUR CONCERT ENCORE\n : THE WINNING"
+        android:background="#701470"
+        android:textStyle="bold|italic"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="배우명:아이유"/>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:background="#471E47"
+        android:src="@drawable/concert"/>
+
+    <TextView
+        android:id="@+id/story"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:background="#471E47"
+        android:textColor="@color/white"
+        android:text="@string/movie"/>
+
+
+    <TextView
+        android:id="@+id/story2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:background="#701470"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:text="@string/movie2"/>
+
+    <android.widget.Button
+        android:id="@+id/b"
+        android:textColor="#471E47"
+        android:layout_width="match_parent"
+        android:textStyle="bold|italic"
+        android:layout_height="wrap_content"
+        android:text="Finish"/>
+
+
+<!--
+        &lt;!&ndash;접두어:속성&ndash;&gt;
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/pour"
+        android:background="#B5D1E1"
+        android:layout_gravity="center"
+        android:text="@string/myname" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="right"
+        android:textSize="18sp"
+        android:textColor="#970"
+        android:text="welcome to our school" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/pour"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="버튼1"/>
+
+        <android.widget.Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="버튼2"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="140dp"
+        android:layout_height="190dp"
+        android:src="@drawable/movie"/>
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="140dp"
+        android:layout_height="190dp"
+        android:src="@drawable/concert"/>
+-->
+</LinearLayout>
