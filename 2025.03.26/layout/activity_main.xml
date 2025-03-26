@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#048"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="대화상자 만들기" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edtdate"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:hint="선택 날짜"/>
+        <Button
+            android:id="@+id/btndate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="날짜 선택"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edttime"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:hint="선택 시간"/>
+        <Button
+            android:id="@+id/btntime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="시간 선택"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#048"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="파일 처리" />
+
+    <Button
+        android:id="@+id/btnwrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="1. 내장 메모리에 파일 쓰기"/>
+
+    <Button
+        android:id="@+id/btnread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="2. 내장 메모리에서 파일 읽기"/>  <!-- data2.txt -->
+
+    <Button
+        android:id="@+id/btnrawread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="3. raw 폴더에서 파일 읽기"/>  <!-- data1.txt -->
+
+    <Button
+        android:id="@+id/btncardread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="4. sc카드에서 파일 읽기"/>  <!-- data3.txt -->
+
+    <TextView
+        android:id="@+id/txtresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#008807"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="결과: ~~~" />
+</LinearLayout>
