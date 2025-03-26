@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">pro3</string>
+    <string name="flower1">목련은 높이 10m 정도로 자라며 수피는 회백색으로 매끄러운 편이고 껍질눈이 있다.</string>
+    <string name="flower2">튤립의 잎은 밑에서부터 서로 계속 어긋나고 밑부분은 원줄기를 감싼다.  </string>
+    <string name="festival1"> 벛꽃 축제 </string>
+    <string name="festival2"> 벚꽃은 벚나무의 꽃이다. 봄에 화창하게 피며, 꽃잎의 색깔은 분홍색 또는 하얀색이다. </string>
+    <string name="festival3">이월드 블라썸 피크닉</string>
+    <string name="festival4">기간 = 2025.03.15~2025.04.06</string>
+    <string name="festival5">장소 = 대구광역시</string>
+</resources>
